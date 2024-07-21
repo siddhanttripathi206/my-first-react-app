@@ -1,0 +1,36 @@
+.sign-in-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .sign-in-button:hover {
+    opacity: 0.9;
+  }
+  
+  .sign-in-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Platform-specific styles */
+  .facebook { background-color: #1877F2; }
+  .google { background-color: #4285F4; }
+  .apple { background-color: #1e1c1cda; }
+  .github { background-color: #24292e; }
+  .twitter { background-color: #373636; }
+  .microsoft { background-color: #00a4ef; }
+  .reddit { background-color: #FF4500; }
+  .instagram { background-color: #E4405F; }
+  .dribbble { background-color: #EA4C89; }
+  .pinterest { background-color: #BD081C; }
+  .spotify { background-color: #1DB954; }
+  .linkedin { background-color: #0A66C2; }
